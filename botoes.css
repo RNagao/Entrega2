@@ -1,0 +1,25 @@
+.divOpcoes{
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    width: 425px;
+}
+.divBotao{
+    display: flex;
+    flex-direction: row;
+    width: 135.417px;
+}
+
+.botao{
+    width: 18.75px;
+    height: 18.75px;
+}
+
+.numero{
+    font-family: Verdana, sans-serif;
+    font-size: 15px;
+    color: grey;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 10px;
+}
