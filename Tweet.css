@@ -2,7 +2,7 @@
 .divBg{
     background-color: black;
     width: 597.5px;
-
+    border-radius:;
 }
 
 /*Fulano Compartilhou*/
@@ -27,6 +27,7 @@
 .divRt{
     display: flex;
     flex-direction: row;
+    margin-top: 10px;
 }
 
 .divRtS{
@@ -106,10 +107,10 @@
     display: column;
     flex-direction: column;
     width: 450px;
-    margin-left: 10px;
-    margin-right: 10px;
+    margin-left: 5px;
     background-color: black;
     font-family: Verdana, sans-serif;
+    margin-top: 0px;
 }
 
 .Imagem_Tweet{
@@ -122,11 +123,35 @@
 
 }
 
-body{
-    background-color: black;
-}
-
 .estilizado{
     font-family: Verdana, sans-serif;
     color: blue;
+}
+
+/*botoes*/
+.divOpcoes{
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    width: 425px;
+    margin-bottom: 10px;
+}
+.divBotao{
+    display: flex;
+    flex-direction: row;
+    width: 135.417px;
+}
+
+.botao{
+    width: 18.75px;
+    height: 18.75px;
+}
+
+.numero{
+    font-family: Verdana, sans-serif;
+    font-size: 15px;
+    color: grey;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 10px;
 }
