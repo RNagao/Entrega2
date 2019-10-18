@@ -1,0 +1,22 @@
+.div{
+    display: flex;
+    flex-direction: row;
+    align-self: stretch;
+}
+.autor{
+    font-family: Verdana, sans-serif;
+    font-size: 15px;
+    color: white;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 5px;
+}
+
+.endereco{
+    font-family: Verdana, sans-serif;
+    font-size: 15px;
+    color: grey;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 5px;
+}
