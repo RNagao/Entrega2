@@ -53,8 +53,15 @@
 /*post*/
 .divPost{
     display: flex;
+    flex-direction: column;
+}
+
+/*Bloco c autor e seta*/
+.divAutorSetinha{
+    display: flex;
     flex-direction: row;
 }
+
 /*Nome e enderco do usuario, alem do tempo em foi postado*/
 .divAutor{
     display: flex;
@@ -91,4 +98,35 @@
 .setinha{
     width: 15px;
     height: 15px;
+}
+
+/*texto_imagem*/
+.divTexto{
+    color:white;
+    display: column;
+    flex-direction: column;
+    width: 450px;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: black;
+    font-family: Verdana, sans-serif;
+}
+
+.Imagem_Tweet{
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+    width: 480px;
+    background-color: black;
+    border-radius: 20px;
+
+}
+
+body{
+    background-color: black;
+}
+
+.estilizado{
+    font-family: Verdana, sans-serif;
+    color: blue;
 }
