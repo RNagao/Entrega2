@@ -6,21 +6,20 @@ body{
 .divBg{
     background-color: black;
     width: 597.5px;
-    border: 0.1px solid grey;
+    border: 0.1px solid rgb(110, 118, 125);
 }
 
 /*Fulano Compartilhou*/
 .fulanoRetweetouS{
-    color: grey;
+    color: rgb(110, 118, 125);
     width: 13px;
     height: 18.75px;
     margin-top: 0px;
     margin-bottom: 0px;
-    color: grey;
 }
 
 .fulanoRetweetouW{
-    color: grey;
+    color: rgb(110, 118, 125);
     font-family: Verdana, sans-serif;
     font-size: 13px;
     margin-top: 0px;
@@ -93,7 +92,7 @@ body{
 .endereco{
     font-family: Verdana, sans-serif;
     font-size: 15px;
-    color: grey;
+    color: rgb(110, 118, 125);
     margin-top: 0px;
     margin-bottom: 0px;
     margin-left: 5px;
@@ -156,15 +155,39 @@ body{
     width: 135.417px;
 }
 
-.botao{
+.botaoComentEnc{
+    border-radius: 20px;
     width: 18.75px;
     height: 18.75px;
 }
 
+.botaoRt{
+    border-radius: 20px;
+    width: 18.75px;
+    height: 18.75px;
+}
+
+.botaoLike{
+    border-radius: 20px;
+    width: 18.75px;
+    height: 18.75px;
+}
+
+.botaoComentEnc:hover{
+    background-color: rgba(90, 188, 248, 0.884);
+}
+
+.botaoRt:hover{
+    background-color:rgb(47, 255, 47);
+}
+
+.botaoLike:hover{
+    background-color: red;
+}
 .numero{
     font-family: Verdana, sans-serif;
     font-size: 15px;
-    color: grey;
+    color: rgb(110, 118, 125);
     margin-top: 0px;
     margin-bottom: 0px;
     margin-left: 10px;
