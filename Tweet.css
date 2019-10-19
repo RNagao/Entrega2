@@ -155,35 +155,12 @@ body{
     width: 135.417px;
 }
 
-.botaoComentEnc{
+.botao{
     border-radius: 20px;
     width: 18.75px;
     height: 18.75px;
 }
 
-.botaoRt{
-    border-radius: 20px;
-    width: 18.75px;
-    height: 18.75px;
-}
-
-.botaoLike{
-    border-radius: 20px;
-    width: 18.75px;
-    height: 18.75px;
-}
-
-.botaoComentEnc:hover{
-    background-color: rgba(90, 188, 248, 0.884);
-}
-
-.botaoRt:hover{
-    background-color:rgb(47, 255, 47);
-}
-
-.botaoLike:hover{
-    background-color: red;
-}
 .numero{
     font-family: Verdana, sans-serif;
     font-size: 15px;
